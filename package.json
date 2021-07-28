@@ -1,0 +1,26 @@
+{
+  "name": "path",
+  "version": "0.1.0",
+  "description": "path manipulation module",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "rimraf dist/ && tsc",
+    "prepare": "yarn build"
+  },
+  "keywords": [
+    "npm",
+    "path"
+  ],
+  "author": "mutagen-d",
+  "license": "ISC",
+  "devDependencies": {
+    "@jest/globals": "^27.0.6",
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  }
+}
