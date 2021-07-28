@@ -1,4 +1,5 @@
 # Path
+[![Build Status](https://travis-ci.com/mutagen-d/path.svg?branch=master&status=passed)](https://travis-ci.com/github/mutagen-d/path)
 
 Module for manipulating file and directory path
 
