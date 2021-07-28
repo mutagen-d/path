@@ -1,6 +1,14 @@
 # Path
 
-Module for manipulation of file or directory path
+Module for manipulating file and directory path
+
+## Installation
+
+```bash
+npm i @mutagen-d/path
+# or
+yarn add @mutagen-d/path
+```
 
 ## API
 
@@ -56,6 +64,7 @@ Path.getNames("./") == []
 ### join
 
 ```javascript
+Path.join([]) === "./"
 Path.join([""]) ===  "/"
 Path.join(["", "root", "main"]) === "/root/main"
 Path.join(["root", "main"]) === "./root/main"

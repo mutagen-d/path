@@ -72,6 +72,7 @@ describe('Path', () => {
     join(Path.getNames('./'), './')
     join(Path.getNames('/'), '/')
 
+    join([], './')
     join(['/root/dir'], '/root/dir')
     join(['./relative/path'], './relative/path')
     join(['./relative/path', '/absolute/folder'], './relative/path/absolute/folder')
